@@ -1,0 +1,38 @@
+
+h1{
+    color: white;
+    text-shadow: 2px  1px 8px black;
+}
+button{
+    box-shadow: 1px 3px 3px black;
+color: rgb(27, 29, 29);
+    width: 8em;
+    height: 3em;
+}
+.nums{
+    display: flex;
+    margin: 60px  200px;
+    gap: 10em;
+    
+}
+.operation{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-left: 80px;
+    gap: 4em;
+    
+}
+.Calculator{
+    background: linear-gradient(to bottom,rgb(138, 240, 244) 20%,rgb(47, 69, 236));
+    box-shadow: 2px 0px 6px black;
+    text-align: center;
+    border: solid black 1px;
+    width: auto;
+    height: 30em;
+
+}
+button:hover{
+    background-color: rgb(77, 136, 168);
+    color: antiquewhite;
+
+}
